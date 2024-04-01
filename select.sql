@@ -1,0 +1,1 @@
+select o.product_name from CUSTOMERS c inner join ORDERS on c.id = o.customer_id where upper(c.name) = upper('alexey')
